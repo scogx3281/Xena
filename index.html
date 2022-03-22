@@ -1,11 +1,12 @@
-<html>
-  <head>
-    <title>Running a Python script</title>
-      <?PHP
-        echo shell_exec("main.py");
-        ?>
-  </head>
-  <body class="d-flex flex-column h-100">
-    <!--BODY-->
+{% load static %}
+{% load my_custom_tags %}
+    
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Intro</title>
+    </head>
+    <body>
+        <p>{% my_tag %}</p>
     </body>
 </html>
